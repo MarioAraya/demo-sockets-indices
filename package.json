@@ -4,10 +4,11 @@
   "description": "ewbsockets express",
   "main": "server.js",
   "scripts": {
-    "start" : "nodemon server.js",
+    "start": "nodemon server.js",
     "test": "jasmine"
   },
-  "dependencies" : {
+  "dependencies": {
+    "chokidar": "^1.6.1",
     "express": "^4.14.0",
     "express3-handlebars": "^0.5.2",
     "handlebars": "^4.0.5",
